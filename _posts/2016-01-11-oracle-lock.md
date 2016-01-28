@@ -3,7 +3,6 @@ layout: post
 title:  "[ORACLE] Locks"
 date:   2016-01-11 11:12:23 
 categories: posts
-excerpt: <!--more-->
 ---
 
 ## Oracle Lock
