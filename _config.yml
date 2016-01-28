@@ -16,11 +16,11 @@ owner:
   email:          adriano.tanakaa@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       
+  facebook:     adriano.tanakaa  
   github:         
   stackexchange:  
   linkedin:       
-  instagram:      
+  instagram:      atanakaa
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
@@ -30,7 +30,7 @@ owner:
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:   'UA-64236204-1'
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
