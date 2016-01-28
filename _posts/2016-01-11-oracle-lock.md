@@ -3,14 +3,14 @@ layout: post
 title:  "[ORACLE] Locks"
 date:   2016-01-11 11:12:23 
 categories: posts
-excerpt: <!-- more -->
+excerpt: "<!--more-->"
 ---
 
 ## Oracle Lock
 Conversando com alguns amigos entramos no assunto Lock e então resolvi escrever esse post para explicar do que se trata esse mecanismo.
 
 Antes de tudo, devemos entender que o Lock não é um problema e sim um mecanismo de proteção.
-<!-- more -->
+<!--more-->
 Existe um conceito em banco de dados chamado  **ACID** (**A**tomicidade, **C**onsistência, **I**solamento e **D**urabilidade) veja [aqui na Wikipedia](https://pt.wikipedia.org/wiki/ACID "aqui na Wikipedia") uma melhor explicação , nesse post vamos nos concentrar no **I** (isolamento).
 
 **Imagine a seguinte situação:**
