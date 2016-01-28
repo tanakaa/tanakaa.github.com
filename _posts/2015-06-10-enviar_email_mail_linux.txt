@@ -28,6 +28,7 @@ echo "####"
 echo "Destinatario: "
 echo $EMAIL
 echo "Email enviado para $2  -  `date` "
+
 {% endhighlight %}
 
 
