@@ -46,8 +46,7 @@
         {% if page.modified %}<span>Updated on <span class="entry-date date updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
         <span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>{% endif %}
         {% if page.share != false %}{% include social-share.html %}{% endif %}
-      </footer>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- anuncio git -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -57,6 +56,8 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+      </footer>
+
     </div><!-- /.entry-content -->
     
     {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
