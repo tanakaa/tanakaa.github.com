@@ -1,6 +1,6 @@
 ---
 title: "O que significa cada letra nas versões do Oracle"
-date: 2015-02-03 10:31:23 
+date: 2016-02-03 10:31:23 
 categories: posts
 layout: post
 ---
