@@ -6,6 +6,7 @@ categories: posts
 ---
 
 Hoje me deparei com um problema gravíssimo, um backup do Oracle não estava restaurando e o seguinte erro estava sendo exibido:
+
 ```shell
 channel c1: ORA-19870: error while restoring backup piece /media/bkp/INC0
 
