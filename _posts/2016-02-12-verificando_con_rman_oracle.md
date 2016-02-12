@@ -6,7 +6,7 @@ categories: posts
 ---
 
 Hoje me deparei com um problema gravíssimo, um backup do Oracle não estava restaurando e o seguinte erro estava sendo exibido:
-```sql
+```shell
 channel c1: ORA-19870: error while restoring backup piece /media/bkp/INC0
 
 ORA-19599: block number 793607 is corrupt in backup piece /media/bkp/INC0
