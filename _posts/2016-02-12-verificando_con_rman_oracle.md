@@ -14,6 +14,7 @@ ORA-19599: block number 793607 is corrupt in backup piece /media/bkp/INC0
 ```
 
 Para verificar se o backup está ou não integro, podemos usar dois utilitários, um chamado dbv(DBVERIFY) que foi feito pela Oracle e pode ser usado para verificar arquivos de backup e também datafiles e o outro um bem difundido que é o md5sum.
+
 O dbv possui os seguintes parâmetros: 
 
 |  Parametro | Descrição  |
@@ -75,3 +76,7 @@ E depois o gerado na maquina de teste:
 Como podemos ver, o arquivo esta com md5 diferentes, ou seja, apesar do tamanho e nome ser o mesmo, o arquivo é diferente.
 
 Nesses caso, recomendo que uma nova cópia seja feita e os md5 validados antes de emitir o restore.
+
+
+Fontes: 
+[Oracle DBV ](https://docs.oracle.com/cd/B10501_01/server.920/a96652/ch13.htm "Oracle DBV ")
