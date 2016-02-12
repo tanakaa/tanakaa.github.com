@@ -8,6 +8,7 @@ categories: posts
 Hoje me deparei com um problema gravíssimo, um backup do Oracle não estava restaurando e o seguinte erro estava sendo exibido:
 ```sql
 channel c1: ORA-19870: error while restoring backup piece /media/bkp/INC0
+
 ORA-19599: block number 793607 is corrupt in backup piece /media/bkp/INC0
 ```
 
@@ -31,7 +32,7 @@ Em uma verificação simples, vamos usar apenas o seguinte comando:
 
 A saída do comando é bem simples:
 
-```sql
+```shell
 DBVERIFY - Verification complete
 
 Total Pages Examined         : 20946
@@ -64,6 +65,7 @@ Devemos primeiro verificar o md5 gerado no ambiente de produção:
 ```
 
 E depois o gerado na maquina de teste:
+
 ```shell
 [oracle@teste]$ md5sum INC1_xxxxx
 92124jf312344v8159adcc33912147xx  INC1_xxxxx
