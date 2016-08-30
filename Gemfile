@@ -1,5 +1,10 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll', '2.5.3'
-gem 'jekyll-sitemap'
-gem 'octopress', '~> 3.0'
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'jekyll-paginate'
+  gem 'jekyll-gist'
+  gem 'jekyll-watch'
+  gem 'kramdown'
+  gem 'rouge'
+end
